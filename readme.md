@@ -1,3 +1,5 @@
-#Resources
+fundlr
+========
+An easy-to-use online budget app
 
-[http://flattyshadow.com/](Flat Shadows)
+[Flat Shadows](http://flattyshadow.com)
