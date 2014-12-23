@@ -6,6 +6,15 @@ cookieParser = require("cookie-parser")
 bodyParser = require("body-parser")
 routes = require("./routes")
 app = express()
+mongoose = require 'mongoose'
+
+mongoUri = "mongodb://localhost/fundlr"
+mongoose.connect mongoUri
+db = mongoose.connection
+db.on "error", console.error.bind(console, "connection error:")
+db.once "open", callback = ->
+  console.log "DB CONNECTION SUCCESSFUL!"
+  return
 
 # view engine setup
 app.set "views", path.join(__dirname, "views")
