@@ -1,0 +1,1563 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"re",
+				"refreshSelect"
+			],
+			[
+				"model",
+				"modelChanged"
+			],
+			[
+				"this",
+				"thisView"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"creatus",
+				"CreateUserItemView"
+			],
+			[
+				"createUser",
+				"createUserView"
+			],
+			[
+				"Create",
+				"CreateUserItemView"
+			],
+			[
+				"layout-compu",
+				"layout-computer-user-row"
+			],
+			[
+				"region",
+				"regionName"
+			],
+			[
+				"thi",
+				"thisRegion"
+			],
+			[
+				"create",
+				"createUserView"
+			],
+			[
+				"crea",
+				"createUserView"
+			],
+			[
+				"select",
+				"selectUserView"
+			],
+			[
+				"save",
+				"saveBtn"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"Cre",
+				"CreateUserItemView"
+			],
+			[
+				"userROw",
+				"userRows"
+			],
+			[
+				"Select",
+				"SelectUserItemView"
+			],
+			[
+				"layou",
+				"layoutView"
+			],
+			[
+				"layout",
+				"layout-computer-user-row"
+			],
+			[
+				"_",
+				"_signup"
+			],
+			[
+				"computer",
+				"computersCollectionView"
+			],
+			[
+				"remove",
+				"removeBtn"
+			],
+			[
+				"Computers",
+				"ComputersCollectionView"
+			],
+			[
+				"signup",
+				"signupLayoutView"
+			],
+			[
+				"Signup",
+				"SignupLayoutView"
+			],
+			[
+				"user",
+				"userSelectItemView"
+			],
+			[
+				"comp",
+				"composite-user-select"
+			],
+			[
+				"Com",
+				"CompositeView"
+			],
+			[
+				"alert",
+				"alert-danger"
+			],
+			[
+				"addU",
+				"addUserRow"
+			],
+			[
+				"item-",
+				"item-user-dropdown-item"
+			],
+			[
+				"seelc",
+				"select-option-label"
+			],
+			[
+				"User",
+				"UserDropdownItemView"
+			],
+			[
+				"Co",
+				"CollectionView"
+			],
+			[
+				"computername",
+				"computerNameInput"
+			],
+			[
+				"num",
+				"numComputers"
+			],
+			[
+				"max",
+				"maxGB"
+			],
+			[
+				"data",
+				"dataSaverGB"
+			],
+			[
+				"is",
+				"isInvincible"
+			],
+			[
+				"invi",
+				"invincibility"
+			],
+			[
+				"get",
+				"getMaxGB"
+			],
+			[
+				"ch",
+				"change"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"plus",
+				"plusGb"
+			],
+			[
+				"change",
+				"changeWebProtect"
+			],
+			[
+				"chang",
+				"changeInvincibility"
+			],
+			[
+				"add",
+				"addUserBtn"
+			],
+			[
+				"min",
+				"minusGbBtn"
+			],
+			[
+				"web",
+				"webProtectCheckbox"
+			],
+			[
+				"in",
+				"invincibilityCheckbox"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"pos",
+				"pos-f	position: fixed;"
+			],
+			[
+				"backgou",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"knob",
+				"KNOB_WIDTH"
+			],
+			[
+				"b",
+				"bearer"
+			],
+			[
+				"radios",
+				"radios_to_slider"
+			],
+			[
+				"compue",
+				"computersView"
+			],
+			[
+				"computers",
+				"computersView"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"input-gro",
+				"input-group-btn"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"boxs",
+				"box-shadow"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backgc",
+				"background-color"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"backgrouc",
+				"background-color"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"bacc",
+				"background-color"
+			],
+			[
+				"headre",
+				"header-height"
+			],
+			[
+				"footer",
+				"footer-height"
+			],
+			[
+				"header",
+				"header-height"
+			],
+			[
+				"margin-o",
+				"margin-bottom"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"fontfam",
+				"font-family-sans-serif"
+			],
+			[
+				"lighgre",
+				"light-grey"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"fontfa",
+				"font-family-sans-serif"
+			],
+			[
+				"computer-list-item",
+				"computer-list-item-select-user"
+			],
+			[
+				"numFa",
+				"numFamilyGuardian"
+			],
+			[
+				"numFamily",
+				"numFamilyGuardianWebProtect"
+			],
+			[
+				"familygu",
+				"family_guardian"
+			],
+			[
+				"numin",
+				"numInvincibileWebProtect"
+			],
+			[
+				"pc_g",
+				"pc_guardian"
+			],
+			[
+				"web_pr",
+				"web_protect"
+			],
+			[
+				"pri",
+				"pricing"
+			],
+			[
+				"numIn",
+				"numInvincibleWebProtect"
+			],
+			[
+				"numfam",
+				"numFamilyGuardianWebProtect"
+			],
+			[
+				"numf",
+				"numFamilyGuardianWebProtect"
+			],
+			[
+				"numfa",
+				"numFamilyGuardian"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"datas",
+				"datasaver"
+			],
+			[
+				"estim",
+				"estimate_body"
+			],
+			[
+				"datasaver",
+				"datasaver_template"
+			],
+			[
+				"estimate",
+				"estimate_body"
+			],
+			[
+				"estima",
+				"estimate_body"
+			],
+			[
+				"familwe",
+				"family_guardian_web_protect"
+			],
+			[
+				"family",
+				"familyWebProtect"
+			],
+			[
+				"familg",
+				"familyGuardian"
+			],
+			[
+				"wepr",
+				"webProtect"
+			],
+			[
+				"calc",
+				"calculateFinalPrice"
+			],
+			[
+				"final",
+				"finalPrice"
+			],
+			[
+				"famigu",
+				"familyGuardian"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"parent",
+				"parents"
+			],
+			[
+				"font-fa",
+				"font-family-sans-serif"
+			],
+			[
+				"listst",
+				"list-style"
+			],
+			[
+				"border-lef",
+				"border-left"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"dark-g",
+				"dark-grey"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"backgr",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 621,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bracket",
+				"BracketHighlighter: Toggle Global Enable"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"toggle hi",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"toggle high",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"server",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Edit Server…"
+			],
+			[
+				"action",
+				"Snippet: Creates a new controller with admin routes"
+			],
+			[
+				"vali",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"controller",
+				"Snippet: Creates a new controller"
+			],
+			[
+				"model",
+				"Snippet: Creates an empty model"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"date",
+				"Jekyll: Insert current datetime"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"syntax mar",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"post",
+				"Jekyll: New post"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"todo",
+				"SimpleTODO: Add TODO"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"set syntax: html",
+				"Set Syntax: HTML"
+			],
+			[
+				"tasks",
+				"Tasks: New document"
+			],
+			[
+				"task",
+				"Tasks: New"
+			],
+			[
+				"git br",
+				"Git: Change Branch"
+			],
+			[
+				"git ",
+				"Git: Gui"
+			],
+			[
+				"git bran",
+				"Git: New Branch"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"gitcom",
+				"Git: Commit history"
+			],
+			[
+				"git commit",
+				"Git: Commit history"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"browse",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"browser",
+				"SFTP: Browse Server…"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"javascrip",
+				"Javascript Beautify"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"fold",
+				"BracketHighlighter: Fold Bracket Content"
+			],
+			[
+				"browse ser",
+				"SFTP: Browse Server…"
+			],
+			[
+				"htmlpre",
+				"HTMLPrettify"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git status;",
+			"git status",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Karl/Sites/node/fundlr"
+	],
+	"file_history":
+	[
+		"/Users/Karl/Sites/node/fundlr/views/error.jade",
+		"/Users/Karl/Sites/node/fundlr/readme.md",
+		"/Users/Karl/Sites/node/fundlr/package.json",
+		"/Users/Karl/Sites/node/fundlr/controllers/index.coffee",
+		"/Users/Karl/Sites/node/fundlr/controllers/.controller.coffee",
+		"/Users/Karl/Sites/node/fundlr/models/.model.coffee",
+		"/Users/Karl/Sites/node/fundlr/controllers/base.coffee",
+		"/Users/Karl/Sites/node/fundlr/models/base.coffee",
+		"/Users/Karl/Sites/node/fundlr/Cakefile",
+		"/Users/Karl/Sites/node/fundlr/routes.coffee",
+		"/Users/Karl/Sites/node/fundlr/app.coffee",
+		"/Users/Karl/Sites/node/fundlr/app.js",
+		"/Users/Karl/Sites/node/fundlr/routes/index.js",
+		"/Users/Karl/Sites/node/fundlr/npm-debug.log",
+		"/Users/Karl/Sites/node/fundlr/bin/www",
+		"/Users/Karl/Sites/node/fundlr/routes/users.js",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1419022914/Cloud Dedicated Server/cloudmsg.com_new/wp-content/themes/cloudmsg/style.css",
+		"/Users/Karl/Downloads/shadygroveanimalclinic_com.sql",
+		"/Users/Karl/Downloads/rnaccounting_com.sql",
+		"/Users/Karl/Downloads/codeblu4_choiceentertainment.sql",
+		"/Users/Karl/Downloads/wordpress716.sql",
+		"/Users/Karl/Downloads/wordpress801.sql",
+		"/Users/Karl/Downloads/wordpress520 (1).sql",
+		"/Users/Karl/Downloads/wordpress520.sql",
+		"/Users/Karl/Downloads/wellesleyah_com.sql",
+		"/Users/Karl/Sites/node/budgetblox3/server/routes/banks.js",
+		"/Users/Karl/Sites/node/budgetblox3/server/models/index.js",
+		"/Users/Karl/Sites/node/fundlr/src/index.coffee",
+		"/Users/Karl/Sites/node/fundlr/node_modules/mocha/lib/browser/events.js",
+		"/Users/Karl/Sites/node/fundlr/node_modules/node-inspector/front-end/EmptyView.js",
+		"/Users/Karl/Sites/node/fundlr/node_modules/ejs/ejs.js",
+		"/Users/Karl/Sites/node/fundlr/.gitignore",
+		"/Users/Karl/Sites/node/fundlr/Gruntfile.coffee",
+		"/Users/Karl/Sites/node/fundlr/scripts/dist.sh",
+		"/Users/Karl/Sites/node/fundlr/scripts/deploy.sh",
+		"/Users/Karl/Sites/node/fundlr/scripts/dev.sh",
+		"/Users/Karl/Sites/node/fundlr/scripts",
+		"/Users/Karl/Sites/php/wordpress/wp-content/plugins/cloudmsg_backlink/readme.txt",
+		"/Users/Karl/Sites/php/wordpress/wp-content/plugins/cloudmsg_backlink/style.css",
+		"/Users/Karl/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Karl/Sites/php/wordpress/wp-content/plugins/cloudmsg_backlink/cloudmsg_backlink.php",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1418143837/Cloud Dreamhost Shared/home/cloudmsg/clients.subpoenasplus.com/index.php",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1418143806/Cloud Dreamhost Shared/home/cloudmsg/clients.subpoenasplus.com/admin.php",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1418143713/Cloud Dreamhost Shared/home/cloudmsg/clients.subpoenasplus.com/subpoena_request.php",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1418143499/Cloud Dreamhost Shared/home/cloudmsg/clients.subpoenasplus.com/_ERRORS.LOG",
+		"/Users/Karl/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/Cloud Dedicated Server",
+		"/Users/Karl/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Karl/Sites/php/cakephp/blogtut/Model/User.php",
+		"/Users/Karl/Sites/php/cakephp/blogtut/Controller/UsersController.php",
+		"/Users/Karl/Sites/php/cakephp/blogtut/Config/database.php",
+		"/Users/Karl/Sites/php/cakephp/blogtut/Controller/PostsController.php",
+		"/Users/Karl/Sites/php/cakephp/blogtut/View/Posts/index.ctp",
+		"/Users/Karl/Sites/php/cakephp/blogtut/View/Posts/view.ctp",
+		"/Users/Karl/Sites/php/cakephp/blogtut/View/Posts/add.ctp",
+		"/Users/Karl/Sites/php/cakephp/blogtut/View/Posts/edit.ctp",
+		"/Users/Karl/Sites/php/cakephp/blogtut/Model/Post.php",
+		"/Users/Karl/Sites/php/cakephp/blogtut/Config/routes.php",
+		"/Users/Karl/Sites/php/cakephp/lib/Cake/Model/Model.php",
+		"/Users/Karl/Sites/php/cakephp/lib/Cake/I18n/Multibyte.php",
+		"/Users/Karl/Sites/php/cakephp/blogtut/View/Layouts/default.ctp",
+		"/Users/Karl/Sites/php/cakephp/blogtut/Config/core.php",
+		"/Users/Karl/Sites/php/cakephp/blogtut/Controller/AppController.php",
+		"/Users/Karl/Sites/php/cakephp/blogtut/Config/bootstrap.php",
+		"/Users/Karl/Sites/php/cakephp/app/Config/core.php",
+		"/Users/Karl/Sites/php/app/Console/Command/HelloShell.php",
+		"/Users/Karl/Sites/php/app/Config/Schema/sessions.php",
+		"/Users/Karl/Sites/php/app/Config/core.php",
+		"/Users/Karl/Sites/php/app/Model/Post.php",
+		"/Users/Karl/Sites/php/app/Controller/PostsController.php",
+		"/Users/Karl/Sites/php/app/View/Posts/edit.ctp",
+		"/Users/Karl/Sites/php/app/View/Posts/add.ctp",
+		"/Users/Karl/Sites/php/app/View/Posts/view.ctp",
+		"/Users/Karl/Sites/php/app/View/Posts/index.ctp",
+		"/Users/Karl/Sites/php/app/Config/routes.php",
+		"/Users/Karl/Sites/php/lib/Cake/basics.php",
+		"/Users/Karl/Sites/php/lib/Cake/Utility/Inflector.php",
+		"/Users/Karl/Sites/php/app/Config/database.php",
+		"/Users/Karl/Sites/php/app/Config/database.php.default",
+		"/Users/Karl/Sites/php/app/View/Pages/home.ctp",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1416848082/Cloud Dedicated Server/shadygroveanimalclinic.com/wp-content/themes/shadygrove-custom/home-page-template.php",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1416849867/Cloud Dedicated Server/shadygroveanimalclinic.com/wp-config.php",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1416848005/Cloud Dedicated Server/shadygroveanimalclinic.com/wp-content/db.php",
+		"/private/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/fz3temp-1/_ERRORS.LOG",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1416332414/Cloud Dreamhost Shared/home/cloudmsg/clients.subpoenasplus.com/index.php",
+		"/private/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/fz3temp-1/access.log",
+		"/private/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/fz3temp-1/error.log",
+		"/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/sublime-sftp-browse-1416247082/Cloud Dreamhost Shared/home/cloudmsg/russmoonow.com/wp-content/themes/Consultant-child/page-contact.php",
+		"/private/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/fz3temp-1/analog_success.txt",
+		"/private/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/fz3temp-1/error.log.2014-11-16",
+		"/private/var/folders/7n/ptrgfp6x71sfjhbp88lry7tr0000gn/T/fz3temp-1/featured-pages-widget.php",
+		"/Users/Karl/Sites/atlantacomputerman.com/OLD/views/sign-up.ejs",
+		"/Users/Karl/Sites/atlantacomputerman.com/OLD/public/stylesheets/style.less",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_layout.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/routes/index.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_nav.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_header.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/sign-up.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/layout/computer_user_select.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/app.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/layout/signup.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/collection/computers.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/composite/computer.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/layout/computer_user_row.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/item/select_user.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/item/create_user.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/layout/user-select.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/item/user_select_item.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_models/user.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_signup/layout-computer-user-select-row.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_signup/layout-computer-user-row.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/layout/computer_user_select_row.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_signup/composite-computer.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/layout/computer.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_testing/item-create-user.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_signup/layout-computer.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/main.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_models/computer.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/item/computer.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_views/layout/computer_select_user_row.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/OLD/app.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/app.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/AtlantaComputerman.sublime-project",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/javascripts/_collections/computer_users.js",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_signup/composite-computer-user_select.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_signup/layout-signup.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/public/stylesheets/_layout.less",
+		"/Users/Karl/Sites/atlantacomputerman.com/views/_signup/item-computer.jade",
+		"/Users/Karl/Sites/atlantacomputerman.com/node_modules/express/LICENSE"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/views",
+			"",
+			"*.ejs",
+			"",
+			"/Users/Karl/Sites/budgetblox3/app/dev/scripts/views",
+			"",
+			"/Users/Karl/Sites/budgetblox3/app/dev/scripts/views,/Users/Karl/Sites/budgetblox3/app/dev/styles,/Users/Karl/Sites/budgetblox3/app/dev/templates",
+			"/Users/Karl/Sites/budgetblox3/app/dev/scripts/views,/Users/Karl/Sites/budgetblox3/app/dev/styles",
+			"",
+			"/Users/Karl/Sites/budgetblox3/app/dev/scripts/vendor/bootstrap/less",
+			"/Users/Karl/Sites/budgetblox3/app/dev/scripts",
+			"server/",
+			"server",
+			"app/dev/scripts/views, app/dev/templates",
+			"app/dev/scripts/views",
+			"app/dev/views",
+			"server/routes/months_banks.js",
+			"app/dev/scripts/views",
+			"server/routes/months.js",
+			"server/routes/budgets.js",
+			"app/dev/scripts/views",
+			"app/scripts/views",
+			"app/dev/scripts/collections/months.js,app/dev/scripts/models/month.js",
+			"server/routes/months.js",
+			"app/dev/scripts,-app/dev/scripts/vendor/*,-app/dev/scripts/main.js,-app/dev/scripts/app.js,-app/dev/scripts/custom_helpers/parseFloatRound.js",
+			"app/dev/scripts,-app/dev/scripts/vendor/*,-app/dev/scripts/main.js,-app/dev/scripts/app.js",
+			"app/dev/scripts,-app/dev/scripts/vendor/*",
+			"app/dev/scripts/*,-app/dev/vendor/*",
+			"+app/dev/scripts/*,-app/dev/vendor/*",
+			"app/dev/scripts,-app/dev/vendor/*",
+			"app/dev/scripts,-app/dev/vendor",
+			"app/dev/scripts",
+			"!app/dev/scripts",
+			"app/dev/scripts",
+			"scripts",
+			"goals.js",
+			"banks.js",
+			"js/",
+			"",
+			"budget-definitions.js",
+			"",
+			"transactions.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"alt text",
+			"index",
+			"Index",
+			"var",
+			"Base",
+			"getController",
+			"err",
+			"list",
+			"'index', ",
+			"method",
+			"routeMvc",
+			"www",
+			"deb",
+			",",
+			"h1",
+			"72.167.252.235/shadygroveanimalclinic.com",
+			"72.167",
+			"prestige",
+			"72.167.252.235",
+			"72.167.252.235/capitalgarage.net",
+			"72.167.252.235",
+			"72.",
+			"72.167.252.235",
+			"72.167.252.235/cloudmsg.com_new",
+			"72.167.252.235\\\\/cloudmsg.com_new",
+			"72.167.252.235/cloudmsg_new",
+			"72.167.252.235/dominionwomenshealth.com_new",
+			"72.167.252.235",
+			"72.167.252.235/dominionwomenshealth.com_new",
+			"72.167.252.235",
+			"scripts",
+			"your_function",
+			"plugin-name",
+			"wp_widget_plugin",
+			"wp_my_plugin",
+			"close",
+			"timezone",
+			"fore",
+			"error",
+			"h1",
+			"function h(",
+			"function f(",
+			"function __(",
+			"function __",
+			"4",
+			"people",
+			"window",
+			" \"-\" 408 145 \"-\" \"-\" ",
+			"/?ls=%2F",
+			"8.28.16.254",
+			"167.127.107.9",
+			"500",
+			"fp_post_image",
+			"another",
+			"$img",
+			"$img =",
+			"image",
+			"featured image",
+			".form-control",
+			"form",
+			"billing-info",
+			"billing",
+			"signup",
+			".form-group",
+			"_testing",
+			"-row",
+			"layout",
+			"createuser",
+			"CreateUserItemView",
+			"createuseritm",
+			"model",
+			"currentView",
+			"this.listenToEvents(this.main.currentView);",
+			"currentView",
+			"this.listenToEvents(this.main.currentView);",
+			"''",
+			"fname",
+			", this",
+			"(this)",
+			"this.",
+			"this",
+			"currentView",
+			"this.main.currentView",
+			", {preventDestroy: true}",
+			"this.main.currentView",
+			"layout-computer",
+			"composite-computer",
+			"composite",
+			"thisRegion",
+			".show(",
+			".options",
+			"createUserView",
+			"selectUserView",
+			"createUserView",
+			"selectUserView",
+			"thisRegion.currentView.",
+			"new CreateUserItemView()",
+			"thisRegion.currentView",
+			".get(regionName)",
+			"thisRegion",
+			"userrows",
+			"trR",
+			"userSelectRow",
+			"adduser",
+			"user-select",
+			"item",
+			"ComputerItemView",
+			"console",
+			"console.",
+			"self",
+			"layoutViews",
+			"UserSelectItemView",
+			"user_select",
+			"user-list",
+			"updateNumComputers",
+			"this.trigger",
+			"removeThisComputer",
+			"composite",
+			"ComputerCompositeView",
+			"if (",
+			"fname",
+			"%=",
+			"items",
+			"user_select",
+			"ComputerView",
+			"ComputerUsersCompositeView",
+			"table.user",
+			"ComputerView"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"www.cloudmsg.com",
+			"www.dominionwomenshealth.com",
+			"dominionwomenshealth.com",
+			"lname",
+			"fname",
+			"include",
+			"fa fa-chevron-right",
+			"<form novalidate ",
+			"fa fa-ban",
+			"fa fa-info-circle",
+			"fa fa-user",
+			"envelope",
+			"fa fa-clock-o",
+			"fa fa-envelope",
+			"fa fa-phone",
+			"<span class=\"fa fa-cloud-upload\"></span>",
+			"<span class=\"fa-stack fa-lg\"><i class=\"fa fa-life-buoy fa-stack-2x\"></i><i class=\"fa fa-hdd-o fa-stack-1x\"></i></span>",
+			"<span class=\"fa-stack fa-lg\"><span class=\"fa fa-check fa-stack-1x\"></span><span class=\"fa fa-hdd-o fa-stack-1x\"></span></span>",
+			"<span class=\"fa-stack fa-lg\"><i class=\"fa fa-check fa-stack-1x\"></i><i class=\"fa fa-hdd-o fa-stack-1x\"></i></span>",
+			"<span class=\"fa-stack fa-lg\"><i class=\"fa fa-life-buoy fa-stack-2x\"></i><i class=\"fa fa-hdd-o fa-stack-1x\"></i></span>",
+			"fa fa-globe",
+			">",
+			"",
+			"Explanation of Our Services",
+			"explanationOfOurServices",
+			"explanation-of-our-services",
+			"Explanation of Services",
+			"explanation-of-services",
+			"explanationOfServices",
+			"aShortExplanation",
+			"A Short Explanation",
+			"a-short-explanation",
+			"10GB",
+			"25GB",
+			"DATASAVER",
+			"GB Data Saver\nAutomated Maintenance",
+			"Automated Maintenance",
+			"25GB AUTOMATIC",
+			"#sidebar",
+			"maskMoney()",
+			"maskMoney({allowZero:true})",
+			"Months_Banks",
+			"months_banks",
+			"",
+			"months",
+			"Months",
+			"budgets",
+			"Budgets",
+			"month",
+			"Month",
+			"month",
+			"parseFloatRound",
+			"goals",
+			"banks",
+			"\nbutton.btn-add",
+			"ItemView_MonthYear",
+			"itemView_MonthYear",
+			"budget-definition_",
+			"budget-definition",
+			"budgetDefinition",
+			"budget-definition_",
+			"'budget-definition_'",
+			"budgetDefinitionSchema",
+			"BudgetDefinition",
+			"Transaction",
+			"transaction",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								598,
+								598
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 252.0
+	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"project": "fundlr.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"events",
+				"node_modules/mocha/lib/browser/events.js"
+			],
+			[
+				"layoutless",
+				"public/stylesheets/_layout.less"
+			],
+			[
+				"computer.js",
+				"public/javascripts/_views/item/computer.js"
+			],
+			[
+				"font",
+				"public/stylesheets/_fonts.less"
+			],
+			[
+				"fonts",
+				"public/stylesheets/_fonts.less"
+			],
+			[
+				"nav",
+				"public/stylesheets/_nav.less"
+			],
+			[
+				"signupjs",
+				"public/javascripts/_views/layout/signup.js"
+			],
+			[
+				"computer",
+				"public/javascripts/_views/item/computer.js"
+			],
+			[
+				"signupless",
+				"public/stylesheets/_signup.less"
+			],
+			[
+				"bower",
+				".bower.json"
+			],
+			[
+				"computerjade",
+				"views/_signup/item-computer.jade"
+			],
+			[
+				"index.jad",
+				"views/index.jade"
+			],
+			[
+				"s",
+				"public/stylesheets/style.less"
+			],
+			[
+				"_inde",
+				"public/stylesheets/_index.less"
+			],
+			[
+				"index",
+				"views/index.jade"
+			],
+			[
+				"_font",
+				"public/stylesheets/_fonts.less"
+			],
+			[
+				"layout",
+				"views/_layout.jade"
+			],
+			[
+				"",
+				".bower.json"
+			],
+			[
+				"style.",
+				"public/stylesheets/style.less"
+			],
+			[
+				"contac",
+				"views/partials/contact-box.ejs"
+			],
+			[
+				"contact",
+				"views/contact-us.ejs"
+			],
+			[
+				"sign",
+				"views/sign-up.ejs"
+			],
+			[
+				"styl",
+				"public/stylesheets/style.less"
+			],
+			[
+				"style.l",
+				"public/stylesheets/style.less"
+			],
+			[
+				"main",
+				"public/javascripts/main.js"
+			],
+			[
+				"sty",
+				"public/stylesheets/style.less"
+			],
+			[
+				"quick",
+				"views/partials/quick-contact-box.ejs"
+			],
+			[
+				"header",
+				"views/partials/header.ejs"
+			],
+			[
+				"ser",
+				"views/services-students.ejs"
+			],
+			[
+				"serv",
+				"views/services-seniors.ejs"
+			],
+			[
+				"famil",
+				"views/services-families.ejs"
+			],
+			[
+				"banklistcoll",
+				"app/dev/scripts/views/collection/BankList_CollectionView.js"
+			],
+			[
+				"style",
+				"app/dev/styles/style.less"
+			],
+			[
+				"collectionview",
+				"app/dev/scripts/views/collection/BudgetList_CollectionView.js"
+			],
+			[
+				"banklis",
+				"app/dev/scripts/views/item/BankListItem_ItemView.js"
+			],
+			[
+				"bankite",
+				"app/dev/templates/BankListItem_ItemView.tpl"
+			],
+			[
+				"budgetlistitem",
+				"app/dev/scripts/views/item/BudgetListItem_ItemView.js"
+			],
+			[
+				"icheck",
+				"app/dev/scripts/vendor/iCheck/icheck.js"
+			],
+			[
+				"main.js",
+				"app/dev/scripts/main.js"
+			],
+			[
+				"timeline",
+				"app/dev/scripts/views/layout/Timeline_Layout.js"
+			],
+			[
+				"style.ls",
+				"app/dev/styles/style.less"
+			],
+			[
+				"editbudget",
+				"app/dev/scripts/views/layout/EditBudget_Layout.js"
+			],
+			[
+				"public/js/bu",
+				"public/js/models/model_Budget.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/ftpbrowser.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
