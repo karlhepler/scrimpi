@@ -2,9 +2,15 @@ fundlr
 ========
 An easy-to-use online budget app
 
+Design Ideas
+===
+* In budget detail view, the line items can be customized
+  - ie. Total Expenses, Biggest Spender, etc etc
+* Tags can be added on the fly
+
 Design
 ===
-![Design](/designs/new_design.png)
+![Design](./designs/new_design.png)
 
 [Flat Shadows](http://flattyshadow.com)
 
