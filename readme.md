@@ -17,7 +17,7 @@ Design Ideas
 
 Design
 ===
-![Design](./designs/new_design.png)
+![Design](./designs/design.png)
 
 [Flat Shadows](http://flattyshadow.com)
 

@@ -523,7 +523,7 @@
 			"file": "readme.md",
 			"settings":
 			{
-				"buffer_size": 621,
+				"buffer_size": 1426,
 				"line_ending": "Unix"
 			}
 		}
@@ -1211,15 +1211,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 621,
+						"buffer_size": 1426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								598,
-								598
+								842,
+								842
 							]
 						],
 						"settings":
