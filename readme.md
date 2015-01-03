@@ -74,7 +74,7 @@ associated with those goals are interconnected... So I'm thinking that budgets a
 
 - All schemas need to have created and modified fields as well (datetime)
 
-```JSON
+```
 Budget {
   
   _id: int,         // ID... duh
