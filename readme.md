@@ -74,60 +74,60 @@ associated with those goals are interconnected... So I'm thinking that budgets a
 
 - All schemas need to have created and modified fields as well (datetime)
 
-Budget {
-  
-  _id: int,         // ID... duh
-  name: string,     // Name of the budget > this is **NOT** unique... this is so we can copy goals from one month to the next
-  duedate: date,    // Duedate of the budget... defaults to end of month. Can be set for future dates
-  priority: number, // duh
+    Budget {
+      
+      _id: int,         // ID... duh
+      name: string,     // Name of the budget > this is **NOT** unique... this is so we can copy goals from one month to the next
+      duedate: date,    // Duedate of the budget... defaults to end of month. Can be set for future dates
+      priority: number, // duh
 
-  goal: number,     // The maximum amount of money that can ever go in this budget... usually this will be the same as limit
-  limit: number,    // The maximum amount of money that can go into this budget for the current month
-  balance: number,  // How much money is left in this budget
-  spent: number,    // How much money has been spent out of this budget
+      goal: number,     // The maximum amount of money that can ever go in this budget... usually this will be the same as limit
+      limit: number,    // The maximum amount of money that can go into this budget for the current month
+      balance: number,  // How much money is left in this budget
+      spent: number,    // How much money has been spent out of this budget
 
-  banks: [],        // Array of banks, in order, for this budget
-  tags: []          // Array of tags
+      banks: [],        // Array of banks, in order, for this budget
+      tags: []          // Array of tags
 
-}
+    }
 
-Tag {
-  _id: int,
-  name: string
-}
+    Tag {
+      _id: int,
+      name: string
+    }
 
-Contact {           // Contacts can incorporate more information later as needed.. ie. address, phone, etc
-  _id: int,
-  name: String
-}
+    Contact {           // Contacts can incorporate more information later as needed.. ie. address, phone, etc
+      _id: int,
+      name: String
+    }
 
-Transaction {
-  
-  _id: int,         // ID
-  contact: Contact, // The payee / payer of the transaction
-  comment: text,    // A description of the transaction. This is also parsed for hashtags, which are then added or removed from the tags field
-  date: Date,       // date transaction took place... could be set for the future
-  tags: [],         // Array of tags
+    Transaction {
+      
+      _id: int,         // ID
+      contact: Contact, // The payee / payer of the transaction
+      comment: text,    // A description of the transaction. This is also parsed for hashtags, which are then added or removed from the tags field
+      date: Date,       // date transaction took place... could be set for the future
+      tags: [],         // Array of tags
 
-  amount: number,   // pos or neg depending on transaction type
+      amount: number,   // pos or neg depending on transaction type
 
-  budgets: [{       // Array of budgets associated with the transaction and the amount spent there
-    amount: Number, // All budget amounts together, must add up to the main amount
-    budget: Budget
-  }],      
-  banks: [{         // Array of banks associated with transaction and the amount spent there
-    amount: Number, // All bank amounts together must add up to the main amount
-    bank: Bank
-  }]       
+      budgets: [{       // Array of budgets associated with the transaction and the amount spent there
+        amount: Number, // All budget amounts together, must add up to the main amount
+        budget: Budget
+      }],      
+      banks: [{         // Array of banks associated with transaction and the amount spent there
+        amount: Number, // All bank amounts together must add up to the main amount
+        bank: Bank
+      }]       
 
-}
+    }
 
-Bank {              // Banks can incorporate more info later if needed... ie. address, phone, etc
-  _id: int,
-  name: String,
-  priority: int,    // All banks have a default priority
-  balance: Number,  // How much money is current in this bank - this is only reduced via a transaction
-}
+    Bank {              // Banks can incorporate more info later if needed... ie. address, phone, etc
+      _id: int,
+      name: String,
+      priority: int,    // All banks have a default priority
+      balance: Number,  // How much money is current in this bank - this is only reduced via a transaction
+    }
 
 ---
 
