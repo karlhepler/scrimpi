@@ -74,6 +74,19 @@ associated with those goals are interconnected... So I'm thinking that budgets a
 
 - All schemas need to have created and modified fields as well (datetime)
 
+- I was thinking that the budget needs another field to show how full it is... but then I thought...
+
+Budgets are like saving accounts
+===
+
+- There can be an optional limit on the amount of money that can go in the savings account
+- There can be a due date for when that amount must be in there
+- There is a limit on how much money you want to put in that savings account per month, depending on the due date
+- When you spend money out of it, however, it comes out of the entirety of the savings account... not just the amount for the month
+- So when listing the budgets on the left, the number displayed needs to be the balance of the savings account
+  - Given this information, I think I need to rethink things...
+
+
 ```
 Budget {
   
