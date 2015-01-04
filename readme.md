@@ -86,6 +86,32 @@ Budgets are like saving accounts
 - So when listing the budgets on the left, the number displayed needs to be the balance of the savings account
   - Given this information, I think I need to rethink things...
 
+```
+// Rethinking
+
+Savings {
+  
+  _id:      Number
+  name:     String
+  balance:  Number
+  limit:    Number
+  duedate:  Date
+
+}
+
+Budget {
+  
+  _id:      Number
+  savings:  Savings
+  limit:    Number
+  funded:   Number
+  balance:  Number
+  spent:    Number
+
+}
+
+```
+
 
 ```
 Budget {
