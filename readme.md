@@ -86,7 +86,7 @@ Budgets are like saving accounts
 - So when listing the budgets on the left, the number displayed needs to be the balance of the savings account
   - Given this information, I think I need to rethink things...
 
-```
+```javascript
 // Rethinking
 
 Savings {
@@ -112,8 +112,7 @@ Budget {
 
 ```
 
-
-```
+```javascript
 Budget {
   
   _id: int,         // ID... duh
