@@ -88,6 +88,12 @@ Budgets are like saving accounts
 
 ```javascript
 
+Base {
+  modified: Date
+  created:  Date
+  user_id:  User_ID
+}
+
 Goal {
 
   _id:          Number
