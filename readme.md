@@ -87,49 +87,131 @@ Budgets are like saving accounts
   - Given this information, I think I need to rethink things...
 
 ```javascript
-// Rethinking
 
-Savings {
+Goal {
+
+  _id:          Number
+  name:         String
+  goal:         Number  
+  due_date:     Date
+
+  balance:      Number
+  spent:        Number  
+
+  budgets:  [{
+    month_year: Date
+    limit:      Number
+    difference: Number
+  }]
   
-  _id:      Number
-  name:     String
-  balance:  Number
-  limit:    Number
-  duedate:  Date
+  priority:     Number
 
+  banks:    [Bank]
+  tags:     [Tag]
+  
 }
 
-Budget {
-  
-  _id:      Number
-  savings:  Savings
-  limit:    Number
-  funded:   Number
-  balance:  Number
-  spent:    Number
+ex.
 
+groceries = new Goal({
+  
+  name: 'Groceries',
+  goal: 300,
+  balance: 0,
+  spent: 0,
+  due_date: 1/30,
+
+  budgets: [
+    {
+      month_year: 1/?/15,
+      limit: 300,
+      difference: 300
+    }
+  ]
+
+})
+
+// 1. Fund groceries with 100
+
+groceries = {
+  balance: 100,
+
+  budgets: [
+    {
+      difference: 200
+    }
+  ]
 }
+
+// 2. Spend 50 in groceries
+
+groceries = {
+  balance: 50,
+  spent: 50
+}
+
+// 3. Fund groceries 500
+
+groceries = {
+  balance: 250,
+
+  budgets: [
+    {      
+      difference: 0
+    }
+  ]
+}
+
+// 4. Spend 120 in groceries
+groceries = {
+  balance: 120,
+  spent: 170
+}
+
+
+// Another example
+
+vacation = new Goal({
+  name: 'Vacation',
+  goal: 5000,
+  due_date: 5/20/15,
+  balance: 0,
+  spent: 0,
+
+  budgets: [
+    {
+      month_year: 1/?/15,
+      limit: 1000,
+      difference: 1000
+    },
+    {
+      month_year: 2/?/15,
+      limit: 1000,
+      difference: 1000
+    },
+    {
+      month_year: 3/?/15,
+      limit: 1000,
+      difference: 1000
+    },
+    {
+      month_year: 4/?/15,
+      limit: 1000,
+      difference: 1000
+    },
+    {
+      month_year: 5/?/15,
+      limit: 1000,
+      difference: 1000
+    }
+  ]
+})
 
 ```
 
-```javascript
-Budget {
-  
-  _id: int,         // ID... duh
-  name: string,     // Name of the budget > this is **NOT** unique... this is so we can copy goals from one month to the next
-  duedate: date,    // Duedate of the budget... defaults to end of month. Can be set for future dates
-  priority: number, // duh
+* The budgets are used to control the funding, while the goal itself handles the transactions
 
-  goal: number,     // The maximum amount of money that can ever go in this budget... usually this will be the same as limit
-  limit: number,    // The maximum amount of money that can go into this budget for the current month
-  balance: number,  // How much money is left in this budget
-  spent: number,    // How much money has been spent out of this budget
-
-  banks: [],        // Array of banks, in order, for this budget
-  tags: []          // Array of tags
-
-}
-
+``` javascript
 Tag {
   _id: int,
   name: string
