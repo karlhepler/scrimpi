@@ -102,18 +102,22 @@ Goal {
   due_date:     Date
 
   balance:      Number
-  spent:        Number  
+  spent:        Number
 
   budgets:  [{
-    month_year: Date
-    limit:      Number
-    difference: Number
+    month_year:   Date
+    limit:        Number
+    left_to_save: Number
+    saved:        Number
   }]
   
-  priority:     Number
-
-  banks:    [Bank]
+  priority:     Number  
   tags:     [Tag]
+
+  banks:    [{
+    bank:   Bank
+    funded: Number
+  }]
   
 }
 
@@ -131,7 +135,8 @@ groceries = new Goal({
     {
       month_year: 1/?/15,
       limit: 300,
-      difference: 300
+      left_to_save: 300,
+      saved: 0
     }
   ]
 
@@ -144,7 +149,7 @@ groceries = {
 
   budgets: [
     {
-      difference: 200
+      left_to_save: 200
     }
   ]
 }
@@ -163,7 +168,7 @@ groceries = {
 
   budgets: [
     {      
-      difference: 0
+      left_to_save: 0
     }
   ]
 }
@@ -188,27 +193,27 @@ vacation = new Goal({
     {
       month_year: 1/?/15,
       limit: 1000,
-      difference: 1000
+      left_to_save: 1000
     },
     {
       month_year: 2/?/15,
       limit: 1000,
-      difference: 1000
+      left_to_save: 1000
     },
     {
       month_year: 3/?/15,
       limit: 1000,
-      difference: 1000
+      left_to_save: 1000
     },
     {
       month_year: 4/?/15,
       limit: 1000,
-      difference: 1000
+      left_to_save: 1000
     },
     {
       month_year: 5/?/15,
       limit: 1000,
-      difference: 1000
+      left_to_save: 1000
     }
   ]
 })
