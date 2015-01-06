@@ -259,9 +259,9 @@ Design
 
 [Flat Shadows](http://flattyshadow.com)
 
-![](http://designmodo.com/wp-content/themes/designmodov2.1/square-ui/images/big_previews/components_1.jpg)
-![](http://designmodo.com/wp-content/themes/designmodov2.1/square-ui/images/big_previews/components_2.jpg)
-![](http://designmodo.com/wp-content/themes/designmodov2.1/square-ui/images/big_previews/components_3.jpg)
+[Flat Ideas 1](http://designmodo.com/wp-content/themes/designmodov2.1/square-ui/images/big_previews/components_1.jpg)
+[Flat Ideas 2](http://designmodo.com/wp-content/themes/designmodov2.1/square-ui/images/big_previews/components_2.jpg)
+[Flat Ideas 3](http://designmodo.com/wp-content/themes/designmodov2.1/square-ui/images/big_previews/components_3.jpg)
 
 Fonts
 ===
