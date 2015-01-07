@@ -2,7 +2,9 @@ class Banks extends require './.controller'
 
   # Just render the index page
   index: (req, res) ->
-    res.render 'index'
+    @bankModel = require '../models/banks'
+    res.send @bankModel
+    # res.render 'index'
 
 
 # Instantiate and export ---------------------------------

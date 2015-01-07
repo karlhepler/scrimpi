@@ -111,7 +111,7 @@ Goal {
     saved:        Number
   }]
   
-  priority:     Number  
+  priority: Number  
   tags:     [Tag]
 
   banks:    [{

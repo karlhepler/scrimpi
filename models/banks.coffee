@@ -1,10 +1,12 @@
-class Banks extends require './.model.coffee'
+Model = require './.model'
+
+class Banks extends Model
 
   # Setup schema
   constructor: ->
     super
     @schema.add
-      name: type: String, unique: true    
+      name: type: String, unique: true
 
   # List all banks
   index: ->
@@ -13,12 +15,12 @@ class Banks extends require './.model.coffee'
   # Create a new bank
   create: (req, res) ->
     # Create the model
-    bank = new @model
-      name: req.body.name
+    # bank = new @model
+    #   name: req.body.name
 
     # Save the bank
-    bank.save (err) ->
+    # bank.save (err) ->
 
 
 # INSTANTIATE AND EXPORT ---------------
-module.exports new Banks
+module.exports = new Banks
