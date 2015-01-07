@@ -1,4 +1,4 @@
-class Index extends require './.controller'
+class Index extends require './_controller'
 
   # Just render the index page
   index: (req, res) ->

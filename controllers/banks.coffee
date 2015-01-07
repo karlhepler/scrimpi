@@ -1,4 +1,4 @@
-class Banks extends require './.controller'
+class Banks extends require './_controller'
 
   # Just render the index page
   index: (req, res) ->

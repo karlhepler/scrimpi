@@ -1,4 +1,4 @@
-Model = require './.model'
+Model = require './_model'
 
 class Banks extends Model
 
