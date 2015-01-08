@@ -1,11 +1,9 @@
-class Banks extends require './_controller'
+Controller = require './_controller'
 
-  # Just render the index page
-  index: (req, res) ->
-    @bankModel = require '../models/banks'
-    res.send @bankModel
-    # res.render 'index'
-
+class Banks extends Controller
+  
+  constructor: ->
+    super
 
 # Instantiate and export ---------------------------------
 module.exports = new Banks

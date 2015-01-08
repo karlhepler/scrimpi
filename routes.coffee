@@ -8,7 +8,7 @@ module.exports = (app) ->
   app
     .get    '/:controller',     (req, res, next) -> routeREST( req.params.controller, 'index',  req, res, next )
     .get    '/:controller/:id', (req, res, next) -> routeREST( req.params.controller, 'get',    req, res, next )
-    .put    '/:controller/:id', (req, res, next) -> routeREST( req.params.controller, 'edit',   req, res, next )
+    .put    '/:controller/:id', (req, res, next) -> routeREST( req.params.controller, 'modify',   req, res, next )
     .post   '/:controller',     (req, res, next) -> routeREST( req.params.controller, 'create', req, res, next )
     .delete '/:controller/:id', (req, res, next) -> routeREST( req.params.controller, 'delete', req, res, next )
 
