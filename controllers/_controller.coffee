@@ -1,3 +1,5 @@
+mongoose = require 'mongoose'
+
 module.exports =
 
   class Controller
@@ -19,8 +21,20 @@ module.exports =
 
     # Create a new model
     create: (req, res, next) ->
+      # Handle errors
       if err then return next err
-      res.json @constructor.name+' Create'
+      # Gather the data
+      for field of model.schema.paths
+        attributes[field] = req.body[field] if req.body[field]? if field isnt "_id" and field isnt "__v"
+      # Create the model
+      thisModel = new mongoose.model attributes
+      # Save the model
+      thisModel.save (err) ->
+        # Handle errors
+        if err then return next err
+        # Return the model
+        res.json thisModel
+
 
     # Modify a single model
     modify: (req, res, next) ->

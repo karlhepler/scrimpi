@@ -1,4 +1,5 @@
 mongoose = require 'mongoose'
+
 # Import base schema
 schema = require './_schema'
 
