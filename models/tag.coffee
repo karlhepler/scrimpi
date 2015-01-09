@@ -1,11 +1,11 @@
 mongoose = require 'mongoose'
 
 # Import base schema
-BankSchema = require './_schema'
+TagSchema = require './_schema'
 
 # Set fields
-BankSchema.add
+TagSchema.add
   name: String
 
 # INSTANTIATE AND EXPORT ---------------
-module.exports = mongoose.model 'Bank', BankSchema
+module.exports = mongoose.model 'Tag', TagSchema
