@@ -1,11 +1,11 @@
-mongoose = require 'mongoose'
-
 module.exports =
 
   class Controller
 
     constructor: ->
+      # Get the model
       @model = require "../models/#{@constructor.name[0...-1]}"
+
 
     # Send all models
     index: (req, res, next) ->
@@ -13,11 +13,13 @@ module.exports =
         if err then return next err
         res.json models
 
+
     # Send a single model
     get: (req, res, next) ->
       @model.findById req.params.id, (err, model) ->
         if err then return next err
         res.json model
+
 
     # Create a new model
     create: (req, res, next) ->
@@ -27,7 +29,7 @@ module.exports =
       for field of model.schema.paths
         attributes[field] = req.body[field] if req.body[field]? if field isnt "_id" and field isnt "__v"
       # Create the model
-      thisModel = new mongoose.model attributes
+      thisModel = new @model attributes
       # Save the model
       thisModel.save (err) ->
         # Handle errors
@@ -52,6 +54,13 @@ module.exports =
           # Return model
           res.json thisModel
 
+
+    # Delete a single model
     delete: (req, res, next) ->
       if err then return next err
-      res.json @constructor.name+' Delete'
+      # Find the model
+      @model.findById req.params.id, (err, model) ->
+        if err then return next err
+        model.remove (err, removedModel) ->
+          if err then return next err
+          res.json removedModel
