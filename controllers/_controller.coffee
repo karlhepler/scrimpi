@@ -3,28 +3,41 @@ module.exports =
   class Controller
 
     constructor: ->
-      @model = require '../models/'+@constructor.name.slice(0,-1)
+      @model = require "../models/#{@constructor.name[0...-1]}"
 
     # Send all models
-    index: (req,res) ->
+    index: (req, res, next) ->
       @model.find().exec (err, models) ->
-        if err then res.send 500,err
-        res.send models
+        if err then return next err
+        res.json models
 
     # Send a single model
-    get: (req,res) ->
+    get: (req, res, next) ->
       @model.findById req.params.id, (err, model) ->
-        if err then res.send 500,err
-        res.send model
+        if err then return next err
+        res.json model
 
-    modify: (req,res) ->
+    # Create a new model
+    create: (req, res, next) ->
+      if err then return next err
+      res.json @constructor.name+' Create'
+
+    # Modify a single model
+    modify: (req, res, next) ->
+      # Find the model via id
       @model.findById req.params.id, (err, model) ->
-        if err then res.send 500, err
+        # Handle errors
+        if err then return next err
+        # Fill all the model's fields with data from matching fields
         for field of model.schema.paths
-          thisModel[field] = req.body[field]  if req.body[field] isnt `undefined`  if (field isnt "_id") and (field isnt "__v")
+          thisModel[field] = req.body[field] if req.body[field]? if field isnt "_id" and field isnt "__v"
+        # Save the model
+        thisModel.save (err) ->
+          # Handle error
+          if err then return next err
+          # Return model
+          res.json thisModel
 
-    create: (req,res) ->
-      res.send @constructor.name+' Create'
-
-    delete: (req,res) ->
-      res.send @constructor.name+' Delete'
+    delete: (req, res, next) ->
+      if err then return next err
+      res.json @constructor.name+' Delete'
