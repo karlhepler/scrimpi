@@ -8,8 +8,17 @@
 mongoose = require 'mongoose'
 
 # Export base schema with default paramters
-module.exports =
-  new mongoose.Schema
-    created: type: Date, default: Date.now()
-    modified: type: Date, default: Date.now()
-    # User ID
+Schema = new mongoose.Schema
+  created: type: Date, default: Date.now()
+  modified: type: Date, default: Date.now()
+
+
+# Things to do before saving
+Schema.pre 'save',(next) ->
+  # Update modified field
+  this.modified = Date.now()
+  next()
+
+
+# Export Schema
+module.exports = Schema
