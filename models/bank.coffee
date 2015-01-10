@@ -6,8 +6,7 @@ BankSchema = require './_auth_schema'
 
 # Set fields
 BankSchema.add
-  name:     type: ObjectId, ref: 'BankName', required: true
-  priority: type: Number, min: 0, required: true
+  name:     type: String, required: true, uppercase: true, trim: true, unique: true
   balance:  type: Number, required: true
 
 # INSTANTIATE AND EXPORT ---------------
