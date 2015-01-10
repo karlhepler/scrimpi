@@ -7,7 +7,9 @@ bodyParser = require("body-parser")
 routes = require("./routes")
 app = express()
 mongoose = require 'mongoose'
+mongooseTypes = require 'nifty-mongoose-types'
 
+mongooseTypes.loadTypes(mongoose);
 mongoUri = "mongodb://localhost/fundlr"
 mongoose.connect mongoUri
 db = mongoose.connection
