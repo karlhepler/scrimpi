@@ -2,6 +2,24 @@ fundlr
 ========
 An easy-to-use online budget app
 
+EUREKA!
+===
+**I think I finally got it (1/10/15)!!**
+* Budgets are the monthly grouping of goals
+* Doing it this way also eliminates the need for the priority variable, as this will be set by the array order
+
+```javascript
+BudgetSchema
+  month_year: Date
+  comment: String
+  goals: [
+    limit: Number
+    left_to_save: Number
+    saved: Number
+    goal: GoalSchema
+  ]
+```
+
 Design Ideas
 ===
 * ~~In budget detail view, the line items can be customized~~

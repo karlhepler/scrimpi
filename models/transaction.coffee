@@ -21,5 +21,12 @@ TransactionSchema.add
     amount: type: Number, required: true
   ]
 
+# Before saving...
+TransactionSchema.pre 'save', (next) ->
+  # Maybe use this.isModified or this.isDirectModified and/or this.isNew to help only do this if comment is modified
+  # Use regex to capture the tags form comment and put them in the tags field  
+  @tags = @comment.match /#([0-9A-Z_]*[A-Z_]+[a-z0-9_üÀ-ÖØ-öø-ÿ]*)/gi if @isNew or @comment.isDirectModified
+  next()
+
 # INSTANTIATE AND EXPORT ---------------
 module.exports = mongoose.model 'Transaction', TransactionSchema

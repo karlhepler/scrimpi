@@ -26,3 +26,12 @@ GoalSchema.add
 
 # INSTANTIATE AND EXPORT ---------------
 module.exports = mongoose.model 'Goal', GoalSchema
+
+# BudgetSchema
+#   month_year: Date
+#   goals: [
+#     limit: Number
+#     left_to_save: Number
+#     saved: Number
+#     goal: GoalSchema
+#   ]
