@@ -2,6 +2,9 @@ fundlr
 ========
 An easy-to-use online budget app
 
+Here is a well-formed bit of code showing passport local in action
+https://github.com/tutsplus/passport-mongo
+
 EUREKA!
 ===
 **I think I finally got it (1/10/15)!!**

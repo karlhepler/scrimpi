@@ -23,8 +23,7 @@ TransactionSchema.add
 
 # Before saving...
 TransactionSchema.pre 'save', (next) ->
-  # Maybe use this.isModified or this.isDirectModified and/or this.isNew to help only do this if comment is modified
-  # Use regex to capture the tags form comment and put them in the tags field  
+  # Use regex to capture the tags form comment and put them in the tags field
   @tags = @comment.match /#([0-9A-Z_]*[A-Z_]+[a-z0-9_üÀ-ÖØ-öø-ÿ]*)/gi if @isModified 'comment'
   next()
 

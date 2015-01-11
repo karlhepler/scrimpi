@@ -1,13 +1,14 @@
-express = require("express")
-path = require("path")
-favicon = require("serve-favicon")
-logger = require("morgan")
-cookieParser = require("cookie-parser")
-bodyParser = require("body-parser")
-routes = require("./routes")
-app = express()
-mongoose = require 'mongoose'
+express       = require 'express'
+path          = require 'path'
+favicon       = require 'serve-favicon'
+logger        = require 'morgan'
+cookieParser  = require 'cookie-parser'
+bodyParser    = require 'body-parser'
+routes        = require './routes'
+mongoose      = require 'mongoose'
 mongooseTypes = require 'nifty-mongoose-types'
+passport      = require 'passport'
+app           = express()
 
 mongooseTypes.loadTypes(mongoose);
 mongoUri = "mongodb://localhost/fundlr"
@@ -30,8 +31,10 @@ app.use bodyParser.urlencoded(extended: false)
 app.use cookieParser()
 app.use require("stylus").middleware(path.join(__dirname, "public"))
 app.use express.static(path.join(__dirname, "public"))
+app.use express.session secret: 'fundlr session secret'
+app.use passport.initialize()
+app.use passport.session()
 routes(app)
-
 
 # error handlers
 
