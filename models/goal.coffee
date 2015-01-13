@@ -9,12 +9,20 @@ GoalSchema.add
   name:     type: ObjectId, ref: 'GoalName', required: true
   goal:     type: Number, required: true, min: 0
   due_date: type: Date
+  
+  comment: String
 
   balance:  Number
   spent:    Number
 
   tags:     [ type: ObjectId, ref: 'Tag' ]
   banks:    [ type: ObjectId, ref: 'Bank' ] # Not sure if I should include funded field or not... I'm thinking not
+
+# Before saving...
+GoalSchema.pre 'save', (next) ->
+  # Use regex to capture the tags form comment and put them in the tags field
+  @tags = @comment.match /#([0-9A-Z_]*[A-Z_]+[a-z0-9_üÀ-ÖØ-öø-ÿ]*)/gi if @isModified 'comment'
+  next()
 
 # INSTANTIATE AND EXPORT ---------------
 module.exports = mongoose.model 'Goal', GoalSchema
