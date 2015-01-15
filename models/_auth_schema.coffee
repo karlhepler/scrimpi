@@ -6,7 +6,7 @@ AuthSchema = require './_schema'
 
 # Set fields
 AuthSchema.add
-  user: type: ObjectId, ref: 'User', required: true
+  user: type: ObjectId, ref: 'User', required: false
 
 
 # Export the schema

@@ -1,4 +1,5 @@
 express       = require 'express'
+session       = require 'express-session'
 path          = require 'path'
 favicon       = require 'serve-favicon'
 logger        = require 'morgan'
@@ -31,7 +32,7 @@ app.use bodyParser.urlencoded(extended: false)
 app.use cookieParser()
 app.use require("stylus").middleware(path.join(__dirname, "public"))
 app.use express.static(path.join(__dirname, "public"))
-app.use express.session secret: 'fundlr session secret'
+app.use session secret: 'fundlr session secret'
 app.use passport.initialize()
 app.use passport.session()
 routes(app)
