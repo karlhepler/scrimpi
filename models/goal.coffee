@@ -15,8 +15,11 @@ GoalSchema.add
   balance:  Number
   spent:    Number
 
-  tags:     [ type: ObjectId, ref: 'Tag' ]
-  banks:    [ type: ObjectId, ref: 'Bank' ] # Not sure if I should include funded field or not... I'm thinking not
+  tags:  [ type: ObjectId, ref: 'Tag' ]
+  banks: [
+    bank:   type: ObjectId, ref: 'Bank'
+    amount: type: Number, default: 0, min: 0
+  ]
 
 # Before saving...
 GoalSchema.pre 'save', (next) ->
