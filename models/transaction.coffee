@@ -1,5 +1,5 @@
 # https://www.npmjs.com/package/calendar-tools
-# 
+
 mongoose = require 'mongoose'
 ObjectId = mongoose.Schema.Types.ObjectId;
 
