@@ -16,7 +16,7 @@ Schema = new mongoose.Schema
 # Things to do before saving
 Schema.pre 'save',(next) ->
   # Update modified field
-  this.modified = Date.now()
+  @modified = Date.now()
   next()
 
 
