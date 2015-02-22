@@ -2,8 +2,7 @@ mongoose = require 'mongoose'
 ObjectId = mongoose.Schema.Types.ObjectId;
 
 # Import base schema
-# BudgetSchema = require './_auth_schema'
-BudgetSchema = require './_schema'
+BudgetSchema = require './_auth_schema'
 
 # Set fields
 BudgetSchema.add
