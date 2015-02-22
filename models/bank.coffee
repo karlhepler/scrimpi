@@ -2,7 +2,8 @@ mongoose = require 'mongoose'
 ObjectId = mongoose.Schema.Types.ObjectId
 
 # Import base schema
-BankSchema = require './_auth_schema'
+# BankSchema = require './_auth_schema'
+BankSchema = require './_schema'
 
 # Set fields
 BankSchema.add

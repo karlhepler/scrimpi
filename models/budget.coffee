@@ -2,11 +2,13 @@ mongoose = require 'mongoose'
 ObjectId = mongoose.Schema.Types.ObjectId;
 
 # Import base schema
-BudgetSchema = require './_auth_schema'
+# BudgetSchema = require './_auth_schema'
+BudgetSchema = require './_schema'
 
 # Set fields
 BudgetSchema.add
-  month_year: type: Date, required: true
+  year: type: Number, required: true
+  month: type: Number, required: true, min: 1, max: 12
   comment: String
 
   goals: [

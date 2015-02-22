@@ -4,7 +4,8 @@ mongoose = require 'mongoose'
 ObjectId = mongoose.Schema.Types.ObjectId;
 
 # Import base schema
-TransactionSchema = require './_auth_schema'
+# TransactionSchema = require './_auth_schema'
+TransactionSchema = require './_schema'
 
 # Set fields
 TransactionSchema.add
